@@ -11,7 +11,14 @@ git fetch origin
 git branch -v -a
 git checkout -b test origin/test
 ```
-
+###Create the branch on your local machine and switch in this branch :
+```
+git checkout -b [name_of_your_new_branch]
+```
+### Change working branch :
+```
+git checkout [name_of_your_new_branch]
+```
 ### Adding a remote:
 ```
 git remote add <remote--name> <remote-url>
@@ -35,3 +42,4 @@ git push -f -u <repo-name> <branch-name>
 ```
 git remote rename origin destination
 ```
+
