@@ -42,4 +42,14 @@ git push -f -u <repo-name> <branch-name>
 ```
 git remote rename origin destination
 ```
-
+### Change one specific file in a local branch into its version in upstream/master(kind of reverting):
+```
+checkout upstream/master .\Code\Admin\npm-shrinkwrap.json
+```
+## Flatten the commits through TortoiseGit
+#### 1. bring the explorer from the cmd 
+```
+explorer .
+```
+#### 2. rightclick and choose the TortoiseGit/ShowLog
+#### 3. select the commits and then right click and compress them to 1 commit
