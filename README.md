@@ -53,3 +53,8 @@ explorer .
 ```
 #### 2. rightclick and choose the TortoiseGit/ShowLog
 #### 3. select the commits and then right click and compress them to 1 commit
+
+### Deleting a local branch:
+```
+git branch -d the_local_branch
+```
