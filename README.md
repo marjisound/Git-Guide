@@ -58,3 +58,8 @@ explorer .
 ```
 git branch -d the_local_branch
 ```
+
+### Change the remote of a local branch
+```
+git branch branch_name --set-upstream-to your_new_remote/branch_name
+```
