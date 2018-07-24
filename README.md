@@ -19,6 +19,12 @@ git checkout -b [name_of_your_new_branch]
 ```
 git checkout [name_of_your_new_branch]
 ```
+
+### Rename local branch :
+```
+git branch -m <oldname> <newname>
+```
+
 ### Adding a remote:
 ```
 git remote add <remote--name> <remote-url>
