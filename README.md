@@ -69,3 +69,9 @@ git branch -d the_local_branch
 ```
 git branch branch_name --set-upstream-to your_new_remote/branch_name
 ```
+
+### Force Stop service
+```
+queryex [servicename]
+taskkill /pid [pid number] /f
+```
