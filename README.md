@@ -75,3 +75,8 @@ git branch branch_name --set-upstream-to your_new_remote/branch_name
 queryex [servicename]
 taskkill /pid [pid number] /f
 ```
+
+### Find user of a group on windows
+```
+net group [group name] /domain
+```
