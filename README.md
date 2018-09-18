@@ -40,6 +40,13 @@ git push  <REMOTENAME> <BRANCHNAME>
 git pull --rebase upstream master
 ```
 
+### Revert a file to a specific commit
+```
+git log path/to/file
+
+git checkout <commit> path/to/file
+```
+
 ### push to a repo (e.g. fork) after rebasing the master
 ```
 git push -f -u <repo-name> <branch-name>
