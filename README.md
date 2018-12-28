@@ -72,6 +72,11 @@ explorer .
 git branch -d the_local_branch
 ```
 
+### Git Stash guide
+```
+https://medium.freecodecamp.org/useful-tricks-you-might-not-know-about-git-stash-e8a9490f0a1a
+```
+
 ### Change the remote of a local branch
 ```
 git branch branch_name --set-upstream-to your_new_remote/branch_name
